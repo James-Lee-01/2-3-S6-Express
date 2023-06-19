@@ -1,0 +1,18 @@
+.btn {
+  color: #333333;
+  background-color: #cccccc;
+  border: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-right>.btn {
+  margin: 0 4px;
+  width: 7rem;
+}
+
+h1 {
+  font-weight: normal;
+}

@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <nav class="nav d-flex justify-content-between p-2 mt-2">
+    <div class="btn-left">
+      <a type="button" class="btn btn-secondary {{#if active.home}}active{{/if}}" href="/">回到首頁</a>
+    </div>
+    <div class="btn-right">
+      <a type="button" class="btn btn-secondary {{#if active.about}}active{{/if}} about"
+        href="/about">About</a>
+      <a type="button" class="btn btn-secondary {{#if active.portfolio}}active{{/if}}"
+        href="/portfolio">Portfolio</a>
+      <a type="button" class="btn btn-secondary {{#if active.contact}}active{{/if}}"
+        href="/contact">Contact</a>
+    </div>
+  </nav>
+</div>
+
+<div class="title p-4">
+  <h1>{{ page }}</h1>
+</div>
